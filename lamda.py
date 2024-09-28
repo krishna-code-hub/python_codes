@@ -18,7 +18,11 @@ people = [
     {"name": "Emily", "age": 29}
 ]
 
+#Using lambda function
 print([i for i in filter( lambda person: person['age'] > 18, people)])
+
+#Using list comprehension
+print([person for person in people if person['age'] > 18])
 
 # Filter out people under 18 and create a greeting message
 adult_greetings = list(map(

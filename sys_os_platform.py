@@ -16,7 +16,7 @@ import sys
 
 # Print command line arguments
 print(sys.argv)
-
+print(dir(sys))
 
 import platform
 
